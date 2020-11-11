@@ -112,16 +112,25 @@ export default class App extends React.Component {
                 <h1>Tecnologias</h1>
               </div>
 
-              <div className="icones">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js-square"></i>
-                <i class="fab fa-php"></i>
-                <i class="fas fa-database"></i>
+              <div className="tipoTecnologia">
+                <div className="tipo">
+                  <h1>HTML</h1>
+                </div>
+                <div className="icones">
+                  <i class="fab fa-html5"></i>
+                  <i class="fab fa-css3-alt"></i>
+                  <i class="fab fa-js-square"></i>
+                  <i class="fab fa-php"></i>
+                  <i class="fas fa-database"></i>
+                </div>
               </div>
               
               <div className="amostra">
-                <p>body h1 Bem vindo(a) h1 body</p>
+                <p>
+                  <span style={{color: '#6C63FF'}}>&#8826;body&#8827;</span> <br/> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style={{color: '#3277DE'}}>&#8826;h1&#8827;</span> <span style={{color: '#FA4848'}}>Bem vindo(a)</span> <span style={{color: '#3277DE'}}>&#8826;&#x2215;h1&#8827;</span> <br/> 
+                  <span style={{color: '#6C63FF'}}>&#8826;&#x2215;body&#8827;</span>
+                </p>
               </div>
 
             </div>

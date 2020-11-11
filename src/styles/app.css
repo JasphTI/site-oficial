@@ -193,6 +193,63 @@
 }
 
 
+.topicos, #sectecnologias, #sectecnologias * {
+    /* border: 1px solid red; */
+}
+
+#sectecnologias {
+}
+
+#sectecnologias .conteudo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#sectecnologias .conteudo .tipoTecnologia {
+    text-align: center;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .tipo {
+    color: #0085FF;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .tipo h1 {
+    color: #0085FF;
+    padding: 6px 0;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .icones {
+    font-size: 2.5rem;
+    color: #979797;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .icones i {
+    padding: 5px 9px;
+    padding-top: 25px;
+    margin: 0 2px;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .icones i:nth-child(1) {
+    background-color: #ff5a2ce0;
+    color: #fff;
+}
+
+#sectecnologias .conteudo .tipoTecnologia .tipo h1 {
+    background-color: #ff5a2ce0;
+    color: #fff;
+}
+
+#sectecnologias .conteudo .amostra {
+    height: 200px;
+    margin: 15px;
+    padding: 6px;
+    border: 1px solid #c1c1c1;
+}
+
+
 @media screen and (min-width: 768px){
 
     .header {
