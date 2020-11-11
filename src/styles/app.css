@@ -243,10 +243,13 @@
 }
 
 #sectecnologias .conteudo .amostra {
+    width: 100%;
     height: 200px;
     margin: 15px;
-    padding: 6px;
+    padding: 15px;
     border: 1px solid #c1c1c1;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 
