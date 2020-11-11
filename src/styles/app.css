@@ -25,9 +25,6 @@
     color: #ffffff;
 }
 
-.header .nav-items {
-}
-
 .header a.nav-close {
     font-size: 2.5rem;
 }
@@ -55,53 +52,12 @@
 }
 
 
-.topicos, #secsobrenos, #secsobrenos * {
-    /* border: 1px solid red; */
-}
-
-.topicos {
-    font-family: 'roboto', sans-serif;
-}
-
-.topicos section .descricao h1 {
-    display: none;
-}
-
-.topicos  #secsobrenos {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    padding: 0 6px;
-    display: flex;
-    align-items: center;
-}
-
-.topicos #secsobrenos .cont_imagem {
-    position: absolute;
-    z-index: -1;
-}
-
-.topicos #secsobrenos .cont_imagem .imagem {
-    width: calc(100% - 6px);
-}
-
-.topicos #secsobrenos .descricao {
-    width: 90%;
-    margin: 0 auto;
-    background: rgba(0, 133, 255, 0.6);
-    color: #fff;
-    text-align: center;
-    padding: 0.5rem;
-    margin-top: -9rem;
-}
-
 .divisor, .divisor * {
     /* border: 1px solid red; */
 }
 
 .divisor {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -119,6 +75,121 @@
     border: 4px solid #0085FF;
     margin: 0 10px;
     display: block;
+}
+
+#secsobrenos, #secportfolio, #secorganizacao, #sectecnologias, #secintegrantes, #seccontato {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 6px;
+}
+
+.topicos {
+    font-family: 'roboto', sans-serif;
+}
+
+.topicos section .descricao h1 {
+    display: none;
+}
+
+.topicos, #secsobrenos, #secsobrenos * {
+    /* border: 1px solid red; */
+}
+.topicos  #secsobrenos {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.topicos #secsobrenos .cont_imagem {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.topicos #secsobrenos .cont_imagem .imagem {
+    width: 308px;
+    margin: 0 calc(50% - 154px);
+}
+
+.topicos #secsobrenos .descricao {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 500px;
+    background: rgba(0, 133, 255, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: -9rem;
+}
+
+
+.topicos, #secorganizacao, #secorganizacao * {
+    /* border: 1px solid red; */
+}
+
+#secorganizacao {
+    display: flex;
+    align-items: center;
+}
+
+#secorganizacao .carrosel {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#secorganizacao .carrosel .conteudo {
+    position: relative;
+}
+
+#secorganizacao .carrosel .conteudo p {
+    padding: 1rem 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 500px;
+}
+
+#secorganizacao .carrosel .conteudo img {
+    margin: 0 calc(50% - 150px);
+    width: 300px;
+}
+
+#secorganizacao .carrosel .conteudo .passadores {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    z-index: 3;
+    font-size: 4rem;
+    color: #0085FF;
+}
+
+#secorganizacao .carrosel .conteudo .passadores .left {
+    padding-right: 6px;
+}
+
+#secorganizacao .carrosel .conteudo .passadores .right {
+    padding-left: 6px;
+}
+
+#secorganizacao .carrosel .orientacao {
+    display: flex;
+    justify-content: center;
+}
+
+#secorganizacao .carrosel .orientacao span {
+    display: block;
+    width: 30px;
+    height: 7px;
+    margin: 0 2px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background: #C9C9C9;
+}
+#secorganizacao .carrosel .orientacao span:first-child {
+    background: #0085FF;
 }
 
 

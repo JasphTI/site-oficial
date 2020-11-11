@@ -57,7 +57,11 @@ export default class App extends React.Component {
           </div>
 
           <section id="secportfolio" for="#portfolio">
-            
+            <div className="conteudo">
+              <div className="descricao">
+                <h1>Portfólio</h1>
+              </div>
+            </div>
           </section>
           
           <div className="divisor">
@@ -71,15 +75,17 @@ export default class App extends React.Component {
               <h1>Organização</h1>
             </div>
             <div className="carrosel">
-
-              <div className="passadores">
-                <span className="left"></span>
-                <span className="right"></span>
-              </div>
-
               <div className="conteudo">
+
                 <img src={organizacaoA} alt="passos atendimento" />
+
                 <p>O primeiro passo no Jasph é conversar com o cliente, para ter uma ideia do que ele quer e começar a planejar</p>
+
+                <div className="passadores">
+                  <span className="left"><i class="fas fa-angle-left"></i></span>
+                  <span className="right"><i class="fas fa-angle-right"></i></span>
+                </div>
+
               </div>
 
               <div className="orientacao">
@@ -107,11 +113,11 @@ export default class App extends React.Component {
               </div>
 
               <div className="icones">
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
-                <i></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-php"></i>
+                <i class="fas fa-database"></i>
               </div>
               
               <div className="amostra">
